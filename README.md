@@ -21,6 +21,7 @@ Make sure to upload .flac files.
 
 ## Database Configuration
 
+Firstly, create a database named prototype in Mysql
 Open prototype\prototype\settings.py and set your database parameters
 
 ```
@@ -54,5 +55,6 @@ cd prototype
 python manage.py migrate
 python manage.py runserver
 ```
+The migrate command automatically converts the django code (models.py) into a SQL tables and attributes.
 
 Open http://127.0.0.1:8000/mainapp
