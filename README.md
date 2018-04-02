@@ -22,6 +22,7 @@ Make sure to upload .flac files.
 ## Database Configuration
 
 Firstly, create a database named prototype in Mysql
+
 Open prototype\prototype\settings.py and set your database parameters
 
 ```
