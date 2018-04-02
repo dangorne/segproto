@@ -1,0 +1,11 @@
+<div style="padding:40px;margin:40px;border:1px solid #ccc">
+    <h1>picture</h1>
+    <form action="#" method="post" enctype="multipart/form-data">
+        {% csrf_token %} {{form}}
+        <input type="submit" value="Upload" />
+    </form>
+    {% for f in files %}
+        {{forloop.counter}}.<a href="{{ f.file.url }}">{{ f.file.name }}</a>
+        ({{f.upload_date}})<hr />
+    {% endfor %}
+</div>
