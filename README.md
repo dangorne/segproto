@@ -2,7 +2,7 @@
 
 ## Terms
 
-raw - a .json file; the direct result of Speech Recognition structured like a dictionary with a timestamp paired to each word of the transcript
+raw - a .json file; the direct result of Speech Recognition structured like a dictionary with a timestamp paired to each word of the extracted speech
 
 transcript - a .txt file; the compiled transcript extracted from a raw file; it contains the pure textual information extracted from an audio file; unstructured and unpunctuated
 
